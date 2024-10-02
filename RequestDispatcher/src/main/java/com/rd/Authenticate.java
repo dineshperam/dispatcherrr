@@ -22,6 +22,9 @@ public class Authenticate extends HttpServlet {
 		String password = request.getParameter("password");
 		String name = request.getParameter("name");
 		
+		
+		
+		
 		String driver = "com.mysql.cj.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/test";
 		String user = "root";
